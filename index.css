@@ -1,0 +1,168 @@
+.leftside {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.img {
+    border: 2px solid black;
+    height: 350px;
+    width: 100%;
+}
+
+.colorpicker, .colorpickertapis {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 20px;
+    background-color: var(--color);
+    aspect-ratio: 1;
+}
+
+.colorpicker:hover, .colorpickertapis:hover {
+    cursor: pointer;
+}
+
+.colorpickercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.modelpickercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.modelpicker {
+    height: 20px;
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
+
+.colormodeltitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftsidebottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.personalisationbox {
+    display: flex;
+}
+
+.rightside {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.leftside {
+    width: 30%;
+}
+
+.checkoutpaierbutton, .checkoutajouterbutton {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutpaierbutton:hover, .checkoutajouterbutton:hover {
+    color: white;
+    background-color: black;
+}
+
+.checkoutoptions {
+    grid-row: 2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stylepoliceopts {
+    display: flex;
+    gap: 10px;
+}
+
+.namevisualizedcontainer {
+    height: 100px;
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalisationbox {
+    border: 2px solid black;
+    padding: 20px;
+    gap: 5px;
+}
+
+.clickedcolor {
+    border: 2px solid white;
+    outline: solid black;
+    outline-width: 1px;
+}
+
+.namevisualized {
+    font-size: 2em;
+}
+
+input[type=text]:focus {
+    border: 3px solid black;
+    outline: none;
+}
+
+input[type=text] {
+    border: 3px solid #8a8282;
+    transition: 0.3s;
+    border-radius: 0;
+    height: 20px;
+}
+
+select {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 177px;
+    height: 40px;
+    border: 3px solid gray;
+    transition: 0.3s;
+    outline: none;
+}
+
+select option {
+    padding: 20px;
+    font-size: 16px;
+}
+
+select>option {
+    padding: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="personalisationbox">
+        <div class="leftside">
+            <div class="leftsidetop">
+                <div class="img"></div>
+            </div>
+            <div class="leftsidebottom">
+                <div class="leftsidebottomtop">
+                    <span class="colormodeltitle">Modele</span>
+                    <div class="modelpickercontainer">
+                        <div class="modelpicker"></div>
+                        <div class="modelpicker"></div>
+                        <div class="modelpicker"></div>
+                        <div class="modelpicker"></div>
+                    </div>
+                </div>
+                <div class="leftsidebottombottom">
+                    <span class="colormodeltitle">Couleur</span>
+                    <div class="colorpickercontainer">
+                        <div class="colorpickertapis clickedcolor" style="--color: #FFFF00;"></div>
+                        <div class="colorpickertapis" style="--color: #33FF57;"></div>
+                        <div class="colorpickertapis" style="--color: #5733FF;"></div>
+                        <div class="colorpickertapis" style="--color: #33FFFF;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="form">
+                <label for="">Votre prenom</label>
+                <input type="text" name="" id="name"><br>
+                <label for="">Couleur de police</label>
+                <div class="colorpickercontainer">
+                    <div class="colorpicker clickedcolor" style="--color: #FF5733;"></div>
+                    <div class="colorpicker" style="--color: #33FF57;"></div>
+                    <div class="colorpicker" style="--color: #5733FF;"></div>
+                    <div class="colorpicker" style="--color: #33FFFF;"></div>
+                </div><br>
+                <label for="">Style de police</label>
+                <select name="" id="typefont">
+                    
+                </select>
+                <br>
+                <div class="namevisualizedcontainer">
+                    <span class="namevisualized"></span>        
+                </div>
+            </div>
+            <br>
+            <div class="checkoutoptions">
+                <a href="" class="checkoutajouterbutton">Ajouter au panier</a>
+                <a href="" class="checkoutpaierbutton">Paier maintenant</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="color-checker.js"></script>
+</body>
+</html>
