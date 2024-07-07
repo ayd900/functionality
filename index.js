@@ -1,4 +1,5 @@
 let fonts = [
+    "ArialEmbroidery",
     "Courier New",
     "Gill Sans",
     "Lucida Sans",
@@ -26,7 +27,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
     const newtypefont = document.getElementById("typefont").value;
     document.getElementById("typefont").style.fontFamily = newtypefont;
-    document.querySelector(".namevisualized").innerHTML = newtypefont;
+    const text = document.getElementById("name").value;
+    if (text.length == 0) {
+        document.querySelector(".namevisualized").innerHTML = newtypefont;
+    }
+    document.querySelector(".namevisualized").style.fontFamily = newtypefont;
 })
 
 document.getElementById("name").addEventListener("keyup", (e)=>{
